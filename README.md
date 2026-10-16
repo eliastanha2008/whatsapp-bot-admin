@@ -1,5 +1,11 @@
 # WhatsApp Bot Admin — پنل مدیریت
 
-پنل مدیریت ربات واتساپ (Robot). فقط کد، بدون هاست.
-سرور مقصد: `https://whatsapp-bot-cyz9.onrender.com` (در index.html قابل تغییر)
-کد obfuscate شده.
+پنل مدیریت ربات واتساپ. آدرس سرور در کد ثابت نیست؛
+از صفحه `server.html` (مسیر `/server`) آدرس سرور را وارد و ذخیره کن.
+کلید مدیریت هم مثل قبل از خود پنل ذخیره می‌شود.
+
+- `index.html` — پنل مدیریت (اگر سروری ذخیره نشده باشد، خودکار به صفحه تنظیم سرور می‌رود)
+- `server.html` — صفحه تنظیم/تست آدرس سرور
+
+## هاست
+Cloudflare Pages: پروژه‌ای با نام `whatsapp-bot-admin` بساز → آدرس: `whatsapp-bot-admin.pages.dev`
